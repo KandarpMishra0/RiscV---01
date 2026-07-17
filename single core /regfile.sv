@@ -1,0 +1,1 @@
+// This is gonna be the memory or the reg file of the tiny single core processor.
