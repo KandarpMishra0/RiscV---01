@@ -16,6 +16,7 @@ assign read_data2 = (rs2 == 5'b0)? 32'b0 : registers[rs2]; // read data from sou
 //register which is always 0 in RISC-V architecture. The write operation is synchronous to the clock and will only happen on the positive edge of the clock when reg_write_en is high and rd is not x0. The reset operation will reset all the registers to 0 on the negative edge of the reset signal.
     
 always_ff @(posedge clk or negedge rst_n )begin 
+    
     if(!rst_n)begin 
         for (int i = 0 ; i < 32 ; i++ )begin 
             registers[i] <= 32'b0; // reset all registers to 0 on reset, main purpose of active low reset button. 
