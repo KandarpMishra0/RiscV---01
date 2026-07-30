@@ -9,3 +9,7 @@ https://youtu.be/c_woOZ3Q3kY?si=Gi_LIg7TklZZp_UC , link to one of the best ways 
 ---> R-type instruction , along with func7 and func3 explained very well in this vid - https://youtu.be/pXupq6LRLQM?si=F6tDsdCd7WdfEq-E
 
 // This course ultimately covers the instruction introduction , allocation and the verilog code associated with each of them 
+--> I type instructions in RISC V explained here - https://youtu.be/VZB_IISJbeU?si=sK5AU7sM5I9vuOVM
+
+
+ps- these instructions are used in Control unit and we use OPcode , func 7 and 3. Opcode remains unique for each instruction and is same for every process of that instruction 
