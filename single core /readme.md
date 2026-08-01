@@ -14,4 +14,6 @@ https://youtu.be/c_woOZ3Q3kY?si=Gi_LIg7TklZZp_UC , link to one of the best ways 
 ---> I -type instructions used for shifting , all types of shifting with const. is discussed in this video , the operation of arithm. shifting is simply to fill the vacant bits with signed (MSB) holder - https://youtu.be/EmG3sbLMnoc?si=9K-4s0a_jEEUQqQS 
 //The video also discusses about load instructions in I type
 
+---> B-type instructions (Branch instructions , used for conditional branching) - https://youtu.be/v72EJtCg0z8?si=tlOCDJMzmXjPkAfe
+
 ps- these instructions are used in Control unit and we use OPcode , func 7 and 3. Opcode remains unique for each instruction and is same for every process of that instruction 
